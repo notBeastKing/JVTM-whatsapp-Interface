@@ -1,0 +1,1 @@
+TO run this project you will need to have a twilio account and a firebase project 
