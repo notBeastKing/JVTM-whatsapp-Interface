@@ -5,9 +5,9 @@ from firebase_admin import credentials, db
 from firebase_admin import storage, firestore
 import datetime
 
-cred = credentials.Certificate("keys\whatskeyfinal.json")
-fireapp = firebase_admin.initialize_app(cred, {'databaseURL':'https://orcode-20903-default-rtdb.asia-southeast1.firebasedatabase.app/' , 
-                                     'storageBucket':'orcode-20903.appspot.com'})
+cred = credentials.Certificate("{YOUR FIREBASE CREDENTIALS}")
+fireapp = firebase_admin.initialize_app(cred, {'databaseURL':'[FIREBASE  REALTIME DATABASE LINK]' , 
+                                     'storageBucket':'FIREBASE STORAGE URL'})
 
 dbapp = firestore.client()
 
