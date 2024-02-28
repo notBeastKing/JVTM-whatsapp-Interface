@@ -1,0 +1,6 @@
+flask
+twilio
+firebase_admin
+qrcode
+pillow
+cryptography
