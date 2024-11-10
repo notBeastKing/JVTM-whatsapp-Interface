@@ -27,8 +27,8 @@ events = { '1':[{'Name':'Dancing'},{'Desc':'NONE'}],
 
 initial_response = ['hi','hello','hey','ola','hii','konichiwa','annoyeong']
 
-account_sid = 'AC87c1f83117018f2ec2e3cc08956d306f' #twilio account SID
-auth_token = '2d6810f766583d66a42f66bf415ad3cf' #Twilio Auth token
+account_sid = '[YOUR TWILIO ACCOUNT SID]' #twilio account SID
+auth_token = '[YOUR TWILIO ACCOUNT AUTH TOKEN]' #Twilio Auth token
 
 
 #FUNCTIONS 
